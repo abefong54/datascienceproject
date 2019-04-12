@@ -41,11 +41,57 @@ person_days_PM_over_standard = getMeasureColumns('86')
 annual_average_PM_concentrations = getMeasureColumns('87')
 print("Reading Complete:")
 
-
-
-
 print("Getting Max Values of Days over Standard")
-state_names = ['Alabama','Alaska','Arkansas']
+state_names = ["Alabama",
+"Alaska",
+"Arizona",
+"Arkansas",
+"California",
+"Colorado",
+"Connecticut",
+"Delaware",
+"Florida",
+"Georgia",
+"Hawaii",
+"Idaho",
+"Illinois",
+"Indiana",
+"Iowa",
+"Kansas",
+"Kentucky",
+"Louisiana",
+"Maine",
+"Maryland",
+"Massachusetts",
+"Michigan",
+"Minnesota",
+"Mississippi",
+"Missouri",
+"Montana",
+"Nebraska",
+"Nevada",
+"New Hampshire",
+"New Jersey",
+"New Mexico",
+"New York",
+"North Carolina",
+"North Dakota",
+"Ohio",
+"Oklahoma",
+"Oregon",
+"Pennsylvania",
+"Rhode Island",
+"South Carolina",
+"South Dakota",
+"Tennessee",
+"Texas",
+"Utah",
+"Vermont",
+"Virginia",
+"Washington",
+"West Virginia",
+"Wisconsin",
+"Wyoming"]
 max_over_standard = {}
 for x in state_names:
     if not x in max_over_standard:
